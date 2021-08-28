@@ -1,0 +1,60 @@
+#compose-body {
+    min-height: 400px;
+    height:100%;
+}
+
+.sentmsg{
+    cursor: pointer;
+}
+
+.inboxmsg{
+    cursor: pointer;
+}
+
+.archmsg {
+    cursor: pointer; 
+}
+
+.fa-archive {
+    color: black;
+}
+
+.fa-archive:hover {
+    transform:scale(2);
+    color: gray;
+    cursor: pointer;
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    margin-right: 5px;
+}
+
+#timestamp {
+    text-align: right;
+    font-size: 12px;
+    color: #b4b7c1;
+}
+
+.alert {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.inboxmsg {
+    font-weight: bold;
+}
+
+.table-secondary > td {
+    font-weight: normal;
+}
+
+.unarchive:hover {
+    color: blue;
+    cursor: pointer;
+}
